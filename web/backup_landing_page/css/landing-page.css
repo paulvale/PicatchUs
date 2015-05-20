@@ -25,14 +25,6 @@ h6 {
     font-size: 60px;
 }
 
-.center {
-    text-align: center;
-}
-
-.section-h3 {
-    font-size: 50px;
-}
-
 .topnav {
     font-size: 14px; 
 }
@@ -40,12 +32,6 @@ h6 {
 .lead {
     font-size: 30px;
     font-weight: 400;
-}
-
-.lead-white {
-    font-size: 30px;
-    font-weight: 400;
-    color: white;
 }
 
 #strengths h2 {
@@ -61,7 +47,7 @@ h6 {
 }
 
 #strengths img {
-    margin-left: 36%;
+    margin-left: 120px;
 } 
 
 .intro-header {
@@ -70,15 +56,6 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg-3.jpg) no-repeat center center;
-    background-size: cover;
-    /*background-color: rgba(0, 0, 0, 0.8);*/
-}
-.events-header {
-    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/selfie_festival.jpg) no-repeat center center;
     background-size: cover;
     /*background-color: rgba(0, 0, 0, 0.8);*/
 }
@@ -110,94 +87,77 @@ h6 {
     font-size: 2em;
 }
 
-.download-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    color: white;
-}
-
-.download-message > h1 {
-    margin: 0;
-    text-shadow: 6px 6px 8px rgba(0,0,0,1);
-    font-size: 7em;
-}
-
-.download-message > h3 {
-    text-shadow: 4px 4px 5px rgba(0,0,0,0.8);
-    font-size: 2em;
-    color: white;
-    text-align: center;
-}
-
-
-section#download {
+section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#download .section-heading {
+section#contact .section-heading {
     color: #fff;
 }
 
-section#download .form-group {
+section#contact .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input {
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding: 20px;
 }
 
-section#download .form-group input.form-control {
+section#contact .form-group input.form-control {
     height: auto;
 }
 
-section#download .form-group textarea.form-control {
+section#contact .form-group textarea.form-control {
     height: 236px;
 }
 
-section#download .form-control:focus {
+section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#download::-webkit-input-placeholder {
+section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#download:-moz-placeholder {
+section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#download::-moz-placeholder {
+section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#download:-ms-input-placeholder {
+section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#downlaod .text-danger {
+section#contact .text-danger {
     color: #e74c3c;
 }
 
-section#download .btn {
-    margin-bottom: 20px;
-    color: #aaa;
+section#contact .btn {
+    margin-bottom: 20px; 
+}
+
+section#contact h1 {
+    color: white;
 }
 
 @media(max-width:767px) {
