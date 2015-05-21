@@ -25,8 +25,6 @@ h6 {
     font-size: 60px;
 }
 
-<<<<<<< HEAD
-=======
 .center {
     text-align: center;
 }
@@ -35,7 +33,6 @@ h6 {
     font-size: 50px;
 }
 
->>>>>>> features
 .topnav {
     font-size: 14px; 
 }
@@ -45,15 +42,12 @@ h6 {
     font-weight: 400;
 }
 
-<<<<<<< HEAD
-=======
 .lead-white {
     font-size: 30px;
     font-weight: 400;
     color: white;
 }
 
->>>>>>> features
 #strengths h2 {
     font-size: 52px;
     padding-top: 20px;
@@ -67,11 +61,7 @@ h6 {
 }
 
 #strengths img {
-<<<<<<< HEAD
-    margin-left: 120px;
-=======
     margin-left: 36%;
->>>>>>> features
 } 
 
 .intro-header {
@@ -83,8 +73,7 @@ h6 {
     background-size: cover;
     /*background-color: rgba(0, 0, 0, 0.8);*/
 }
-<<<<<<< HEAD
-=======
+
 .events-header {
     padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -94,7 +83,6 @@ h6 {
     background-size: cover;
     /*background-color: rgba(0, 0, 0, 0.8);*/
 }
->>>>>>> features
 
 .navbar-brand{
     font-size: 20px;
@@ -123,9 +111,6 @@ h6 {
     font-size: 2em;
 }
 
-<<<<<<< HEAD
-section#contact {
-=======
 .download-message {
     position: relative;
     padding-top: 20%;
@@ -148,37 +133,12 @@ section#contact {
 
 
 section#download {
->>>>>>> features
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-=======
 section#download .section-heading {
     color: #fff;
 }
@@ -200,75 +160,46 @@ section#download .form-group textarea.form-control {
 }
 
 section#download .form-control:focus {
->>>>>>> features
     border-color: #fed136;
     box-shadow: none;
 }
 
-<<<<<<< HEAD
-section#contact::-webkit-input-placeholder {
-=======
 section#download::-webkit-input-placeholder {
->>>>>>> features
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-<<<<<<< HEAD
-section#contact:-moz-placeholder {
-=======
 section#download:-moz-placeholder {
->>>>>>> features
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-<<<<<<< HEAD
-section#contact::-moz-placeholder {
-=======
+
 section#download::-moz-placeholder {
->>>>>>> features
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-<<<<<<< HEAD
-section#contact:-ms-input-placeholder {
-=======
 section#download:-ms-input-placeholder {
->>>>>>> features
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-<<<<<<< HEAD
-section#contact .text-danger {
-    color: #e74c3c;
-}
-
-section#contact .btn {
-    margin-bottom: 20px; 
-}
-
-section#contact h1 {
-    color: white;
-=======
-section#downlaod .text-danger {
+section#download .text-danger {
     color: #e74c3c;
 }
 
 section#download .btn {
     margin-bottom: 20px;
     color: #aaa;
->>>>>>> features
 }
 
 @media(max-width:767px) {
