@@ -1,0 +1,13 @@
+<ion-view view-title="Album">
+  <ion-content>
+      <div class="list" ng-controller="AlbumsCtrl">
+          <a ng-repeat="album in albums"
+             href="#/{{album.id}}"
+             class="item item-thumbnail-left">
+
+              <h2>{{ album.album }}</h2>
+              <h4>{{ album.date }}</h4>
+          </a>
+      </div>
+  </ion-content>
+</ion-view>
