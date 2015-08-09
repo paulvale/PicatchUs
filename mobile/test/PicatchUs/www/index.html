@@ -17,9 +17,10 @@
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-
-    
     <script src="scripts/platformOverrides.js"></script>
+
+    <!-- Vendors javascript-->
+    <script src="js/vendors/jquery-2.1.4.min.js"></script>
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
@@ -50,17 +51,18 @@
           <div ng-controller="SlideBoxController">
               <ion-slide-box show-pager="false">
                   <ion-slide>
-                      <div class="events">
-                          <p>
-                              Tous les évènements de la soirée !
-                          </p>
-                      </div>
+                      <img id="picture" src=""/>
                   </ion-slide>
                   <ion-slide id="take_picture">
                       <div class="intro">
                           <p>Hi Lucas ! <br /> <br /> Commence par prendre une photo, et partage là !</p>
                       </div>
-                      <div id="take_photo"class="round-button"><p class="add">+</p></div>
+                      <div id="add-btn" class="row">
+                          <div class="col col-33-offset"></div>
+                          <div class="col">
+                              <a href="#" ng-click="take_photo()"><img src="img/add.png"/></a>
+                          </div>
+                      </div>
                   </ion-slide>
               </ion-slide-box>
           </div>

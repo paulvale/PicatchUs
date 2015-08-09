@@ -83,7 +83,6 @@
     top: 0;
     right: 0;
     left: 0;
-    //bottom: 0;
     background-size: cover;
 }
 
@@ -98,25 +97,6 @@
     line-height: 30px;
 }
 
-.round-button { 
-   width: 60px;
-   height: 60px;
-   background: #3dafff; 
-   -moz-border-radius: 30px; 
-   -webkit-border-radius: 30px; 
-   border-radius: 30px;
-}
-
-#take_photo {
-    position: relative;
+#add-btn {
     margin-top: 75%;
-    margin-left: 42%;
-}
-
-.add {
-    font-size: 4em;
-    color: white;
-    top: 21%;
-    left: 17%;
-    position: relative;
 }
