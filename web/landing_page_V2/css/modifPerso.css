@@ -1,0 +1,27 @@
+section#second-step-album{
+	background-image: url(../img/Crowd2.jpeg);
+	background-attachment: fixed;
+	background-position: 50% 24px;
+	background-size: cover;
+
+	color: white;
+}
+
+section#second-step-event{
+	background-image: url(../img/concert-fcbk.jpg);
+	background-attachment: fixed;
+	background-position: 50% 24px;
+	background-size: cover;
+
+	color: white;
+}
+
+
+section#app ,section#event{
+	background-color : #EB5200;
+	color : white;
+}
+
+section#album, section#servicesEvent {
+	background-color: lightGrey;
+}
