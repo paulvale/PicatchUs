@@ -11,6 +11,7 @@ section#second-step-album{
 section#event{
 	background: url(../img/selfie-festoch-b.jpg);
 	background-size: cover;
+
 }
 
 section#app{
@@ -40,6 +41,9 @@ section#demo div {
 
 section#app ,section#event{
 	color : white;
+	text-shadow : 4px 1px 3px #000 ;
+    filter : dropshadow(color=#000, offx=4, offy=1) ;
+    height : 600px;
 }
 
 section#contact {
@@ -50,8 +54,19 @@ section#contact {
 }
 
 .col {
-	padding-top : 200px;
+	padding-top : 100px;
 
+}
+
+@media(min-width:768px) {
+    .col {
+        padding: 0px;
+    }
+}
+
+.img-responsive{
+	width: 60%;
+	height: auto;
 }
 
 
