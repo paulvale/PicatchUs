@@ -16,6 +16,7 @@ section#event{
 section#app{
 	background:url(../img/selfie-friends-b.jpg);
 	background-size:cover;
+	background-position: 0% 30%;
 }
 
 
@@ -38,6 +39,10 @@ section#demo div {
 	color:white;
 }
 
+section#demo .section-heading {
+	margin-bottom: 50px;
+}
+
 section#app ,section#event{
 	color : white;
 }
@@ -51,8 +56,25 @@ section#contact {
 
 .col {
 	padding-top : 200px;
-
 }
 
+.picatchus {
+	color: #3DAFFF;
+	font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-transform: none;
+    font-size: 35px;
+}
 
+.lead {
+	font-size: 23px;
+	text-align: justify;
+}
 
+.section-conclusion {
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 1.4;
+	text-align: right;
+}
