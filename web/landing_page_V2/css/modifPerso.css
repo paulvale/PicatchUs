@@ -1,10 +1,11 @@
 section#second-step-album{
-	background-image: url(../img/Crowd2.jpeg);
+	background-image: url(../img/selfie-science-2.jpg);
 	background-attachment: fixed;
 	background-position: 50% 24px;
 	background-size: cover;
-
-	color: white;
+	color:white;
+	text-shadow : 4px 1px 3px #000 ;
+    filter : dropshadow(color=#000, offx=4, offy=1) ;
 }
 
 section#event{
@@ -19,12 +20,13 @@ section#app{
 
 
 section#second-step-event{
-	background-image: url(../img/concert-fcbk.jpg);
+	background-image: url(../img/Crowd2.jpeg);
 	background-attachment: fixed;
 	background-position: 50% 24px;
 	background-size: cover;
-
-	color: white;
+	color:white;
+	text-shadow : 4px 1px 3px #000 ;
+    filter : dropshadow(color=#000, offx=4, offy=1) ;
 }
 
 section#demo{
@@ -38,6 +40,18 @@ section#demo div {
 
 section#app ,section#event{
 	color : white;
+}
+
+section#contact {
+	color:white;
+	text-shadow : 4px 1px 3px #000 ;
+    filter : dropshadow(color=#000, offx=4, offy=1) ;
+
+}
+
+.col {
+	padding-top : 200px;
+
 }
 
 
