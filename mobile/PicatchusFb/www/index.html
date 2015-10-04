@@ -31,7 +31,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('app', ['ionic'])
+angular.module('app', ['ionic', 'ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -47,7 +47,7 @@ angular.module('app', ['ionic'])
   });
 })
 
-.config(function ($stateProvider, $urlRouterProvider, $cordovaFacebookProvider) {
+.config(function ($stateProvider, $urlRouterProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
@@ -69,13 +69,9 @@ angular.module('app', ['ionic'])
   // if none of the above states are matched, use this as the fallback
   
   $urlRouterProvider.otherwise('login');
-
-  var appID = 123456789;
-  var version = "v2.4"; // or leave blank and default is v2.4
-  $cordovaFacebookProvider.browserInit(appID, version);
 })
 
-.controller('LoginCtrl', function ($scope, $cordovaFacebook) {
+.controller('LoginCtrl', ['facebookConnectPlugin', function ($scope, $facebookConnectPlugin) {
 
     $scope.login = function () {
         /*$cordovaFacebook.login(["public_profile", "event"])
@@ -130,7 +126,7 @@ angular.module('app', ['ionic'])
           // error
       });*/
     
-})
+}])
 
 ;
 
