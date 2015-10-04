@@ -47,7 +47,7 @@ angular.module('app', ['ionic'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function ($stateProvider, $urlRouterProvider, $cordovaFacebookProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
@@ -64,21 +64,21 @@ angular.module('app', ['ionic'])
       url: '/events',
       templateUrl: 'events.html'
     })
-    
-    .state('home', {
-      url: '/home',
-      templateUrl: 'home.html'
-    })    ;
+    ;
 
   // if none of the above states are matched, use this as the fallback
   
   $urlRouterProvider.otherwise('login');
+
+  var appID = 123456789;
+  var version = "v2.4"; // or leave blank and default is v2.4
+  $cordovaFacebookProvider.browserInit(appID, version);
 })
 
 .controller('LoginCtrl', function ($scope, $cordovaFacebook) {
 
     $scope.login = function () {
-        $cordovaFacebook.login(["public_profile", "event"])
+        /*$cordovaFacebook.login(["public_profile", "event"])
         .then(function (success) {
             alert(success);
             // { id: "634565435",
@@ -87,10 +87,10 @@ angular.module('app', ['ionic'])
             // }
         }, function (error) {
             // error
-        });
-    }
+        });*/
+    };
 
-    $cordovaFacebook.api("me", ["public_profile"])
+    /*$cordovaFacebook.api("me", ["public_profile"])
       .then(function (success) {
           alert(success)
       }, function (error) {
@@ -112,7 +112,7 @@ angular.module('app', ['ionic'])
             status: "connected"
           }
           */
-      }, function (error) {
+      /*}, function (error) {
           // error
       });
 
@@ -128,7 +128,7 @@ angular.module('app', ['ionic'])
           // success
       }, function (error) {
           // error
-      });
+      });*/
     
 })
 

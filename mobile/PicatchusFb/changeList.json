@@ -2061,7 +2061,8 @@
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\index.html"
+    "www\\index.html",
+    "bower.json"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
