@@ -40,9 +40,6 @@ angular.module('starter.controllers', [])
                     function(photos) {
                       console.log(photos);
                       var p = photos.data;
-                      for (i = 0; i < p.length; i++){
-                        console.log(p[i]);
-                      }
                       $scope.photos = photos.data;
                     },
                     errorHandler);
